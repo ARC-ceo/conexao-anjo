@@ -17,11 +17,11 @@ Facilitar conexões solidárias entre doadores e pessoas em situação de vulner
 ```
 conexao-anjo/
 │
-├── backend/            # Projeto Quarkus (API)
+├── Projeto Java/            # Projeto Quarkus (API)
 │   └── src/
 │   └── pom.xml
 │
-└── frontend/           # Projeto Front-end (React, Angular, etc.)
+└── Front-End/           # Projeto Front-end 
     └── index.html
 ```
 
@@ -42,7 +42,7 @@ conexao-anjo/
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/conexao-anjo.git
+   git clone https://github.com/ARC-ceo/conexao-anjo.git
    cd conexao-anjo/backend
    ```
 
@@ -65,25 +65,15 @@ conexao-anjo/
 
 ### 💻 Frontend
 
-1. Em outra aba do terminal, navegue até a pasta do front:
+1. Abra essa pasta dentro do VS-CODE
    ```bash
-   cd ../frontend
+   cd ../Front-End
    ```
+   
+2. Execute o live server apartir do arquivo index.html:
+  
+3. Redirecionado para o navegador
 
-2. Instale as dependências:
-   ```bash
-   npm install
-   ```
-
-3. Execute o projeto:
-   ```bash
-   npm start
-   ```
-
-4. Acesse no navegador:
-   ```
-   http://localhost:3000
-   ```
 
 ---
 
@@ -100,11 +90,7 @@ Para rodar os testes do backend:
 ## 📫 Contato
 
 Grupo ARC - Projeto Conexão Anjo  
-Email: contato@grupoarc.org  
-Instagram: [@grupoarc](https://instagram.com/grupoarc)
+Youtuve - Grupo ARC
 
 ---
 
-## 📝 Licença
-
-Este projeto está licenciado sob a **MIT License**. Veja o arquivo `LICENSE` para mais detalhes.
