@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Perfil</title>
+  <link rel="stylesheet" href="css/perfil.css"/>
+</head>
+<body>
+  <nav class="navbar">
+    <ul class="navbar-links">
+      <li><a href="locais.html">Locais</a></li>
+      <li><a href="doacoes.html">Doações</a></li>
+      <li><a href="perfil.html">Meu Perfil</a></li>
+      <li><a href="#" id="btnSair">Sair</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <h1>Meu Perfil</h1>
+    
+    <div id="dadosPerfil" class="perfil-box">
+      <label><strong>Nome:</strong> <input type="text" id="nome" disabled></label>
+      <label><strong>Telefone:</strong> <input type="text" id="telefone" disabled></label>
+      <label><strong>UF:</strong> <input type="text" id="uf" disabled></label>
+      <label><strong>Cidade:</strong> <input type="text" id="cidade" disabled></label>
+    </div>
+
+    <div class="botoes-acao">
+      <button id="editarPerfil">Editar Perfil</button>
+      <button id="salvarPerfil" style="display: none;">Salvar Alterações</button>
+      <button id="deletarConta" class="danger">Deletar Minha Conta</button>
+    </div>
+  </div>
+
+  <script src="js/perfil.js"></script>
+</body>
+</html>
