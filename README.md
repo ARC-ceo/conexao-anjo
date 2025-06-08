@@ -43,7 +43,7 @@ conexao-anjo/
 1. Clone o repositório:
    ```bash
    git clone https://github.com/ARC-ceo/conexao-anjo.git
-   cd conexao-anjo/backend
+   cd conexao-anjo
    ```
 
 2. Compile o projeto:
